@@ -11,7 +11,7 @@ class Second_hand_crawler(object):
 		self.query = query#물건 이름
 		self.page_num =page_num#1페이지 부터 15페이지 까지 검색할 예정
 		self.url=f"https://cafe.naver.com/ca-fe/home/search/c-articles?q={query}&p={page_num}"
-		self.driver = webdriver.Chrome('C:/Users/Hellol/Desktop/python practice/Python_project/Crawling/chromedriver.exe')
+		self.driver = webdriver.Chrome('C:/Users/Hellol/Desktop/Coding/Python_project/Selenium_crawling/chromedriver.exe')
 		
 	def load_page(self):
 		driver = self.driver
