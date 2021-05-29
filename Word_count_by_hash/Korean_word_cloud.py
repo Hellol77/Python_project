@@ -11,9 +11,9 @@ stopwords=stopwords.split()
 stopwords = set(stopwords)
 
 f_lastname=input('txt파일명을 입력하세요 : ')
-f_firstname='C:\\Users\\Hellol\\Desktop\\python practice\\Word_count_by_hash\\'
+f_firstname='C:\\Users\\Hellol\\Desktop\\Coding\\Python_project\\Word_count_by_hash\\'
 fname=f_firstname+f_lastname+'.txt'                                                     #tallman
-with open(fname,'r',encoding='UTF8') as f:
+with open(fname,'r',encoding='UTF8') as f: 
     texts=f.read()
     texts=texts.split()
 
